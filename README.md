@@ -37,3 +37,11 @@ This is yet another application that goes along with "Modern React with Redux" f
   - Uses everything after a # as the 'path'
 - MemoryRouter -> localhost:3000/
   - Doesn't use the URL to track navigation
+
+#### OAuth Authentication
+
+- User authenticates with outside service provider
+- User authorizes our app to access their information
+- Outside provider tells us about the user
+- We are trusting the outside provider to correctly handle identification of the user
+- OAuth can be used for (1) user identification in our app and (2) our app making actions on behalf of user
