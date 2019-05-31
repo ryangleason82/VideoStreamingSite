@@ -1,3 +1,35 @@
 {
-	"streams": []
+  "streams": [
+    {
+      "title": "My Stream",
+      "description": "This is a great stream!",
+      "id": 1
+    },
+    {
+      "title": "Other Stream",
+      "description": "Here's another!",
+      "id": 2
+    },
+    {
+      "title": "I created this stream you silly!",
+      "description": "This stream was created by me....",
+      "id": 3
+    },
+    {
+      "title": "Ryan's Stream",
+      "description": "This is a ryan stream this is everything!",
+      "id": 4
+    },
+    {
+      "title": "This is a gods stream",
+      "description": "This is everything",
+      "userId": "100800085157951362172",
+      "id": 6
+    },
+    {
+      "title": "Post Refactor",
+      "description": "Post Refactor szn",
+      "id": 7
+    }
+  ]
 }

@@ -45,3 +45,16 @@ This is yet another application that goes along with "Modern React with Redux" f
 - Outside provider tells us about the user
 - We are trusting the outside provider to correctly handle identification of the user
 - OAuth can be used for (1) user identification in our app and (2) our app making actions on behalf of user
+
+#### Two different ways of editing
+
+- Selection Reducer
+  - When a user clicks on a stream to edit it, use a 'selectionReducer' to record what stream is being edited
+- URL -based selection
+  - Put the ID of the stream being edited in the URL
+
+#### Misc
+
+- PATCH updates some of the records
+- PUT updates all of the records
+- React Fragments can be shortened to <> </>
